@@ -1,0 +1,10 @@
+[
+  {
+    "command" : "project_create",
+    "keys" : [ "ctrl+shift+n" ]
+  },
+  {
+    "command" : "project_release",
+    "keys" : [ "ctrl+shift+r" ]
+  }
+]

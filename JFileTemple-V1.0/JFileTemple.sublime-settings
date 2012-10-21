@@ -1,0 +1,10 @@
+{
+    //存储文件模板所在的目录
+    "temple_dir"       : "${plugin_path}/temples",
+    //默认语言
+    "default_language" : "CH",
+    //使用的语言
+    "language"         : "CH", 
+    //调试开关
+    "debug"            : false
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "command" : "j_new_file",
+        "keys" : [ "ctrl+t" ]
+    }, 
+    {
+        "command" : "j_new_file",
+        "keys" : ["ctrl+shift+1"],
+        "args" : {
+            "temp" : "JavaScript.js"
+        }
+    }
+]

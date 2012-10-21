@@ -1,0 +1,110 @@
+[
+    {
+        "id"       : "project",
+        "children" : [
+            {
+                "caption" : "New Project",
+                "mnemonic": "N",
+                "id"      : "new-project",
+                "command" : "j_project_create"
+            },
+            {
+                "caption" : "Release Project",
+                "mnemonic": "R",
+                "id"      : "release-project",
+                "command" : "j_project_release"
+            },
+            {
+                "caption" : "Import Project Temple  ",
+                "mnemonic": "I",
+                "id"      : "release-project",
+                "command" : "j_project_import_temple"
+            }
+
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "JProject",
+                        "children":
+                        [
+                            {
+                                "command"     : "open_file",
+                                "args"        : {"file": "${packages}/JProject/JProject.sublime-settings"},
+                                "caption"     : "Settings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {"file": "${packages}/User/JProject.sublime-settings"},
+                                "caption"     : "Settings – User"
+                            },
+                            { "caption"       : "-" },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/JProject/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption"     : "Key Bindings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/JProject/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption"     : "Key Bindings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/JProject/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption"     : "Key Bindings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption"     : "Key Bindings – User"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption"     : "Key Bindings – User"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption"     : "Key Bindings – User"
+                            },
+                            { "caption"       : "-" },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {"file": "${packages}/JProject/Main.sublime-menu"},
+                                "caption"     : "Settings – Menu"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+]

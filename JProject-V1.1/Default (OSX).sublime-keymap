@@ -1,0 +1,10 @@
+[
+  {
+    "command" : "j_project_create",
+    "keys" : [ "ctrl+shift+n" ]
+  },
+  {
+    "command" : "j_project_release",
+    "keys" : [ "ctrl+shift+r" ]
+  }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "id"       : "file",
+        "children" : [
+            {
+                "caption" : "JFileTemple",
+                "mnemonic": "J",
+                "children": [
+                    {
+                        "caption" : "New File",
+                        "mnemonic" : "N",
+                        "command" : "j_new_file"
+                    },
+                    { "caption" : "-" },
+                    {
+                        "caption" : "Add File Temple",
+                        "mnemonic" : "A",
+                        "command" : "j_add_file_temple"
+                    },
+                    {
+                        "caption" : "Modify File Temple",
+                        "mnemonic" : "M",
+                        "command" : "j_modify_file_temple"
+                    },
+                    {
+                        "caption" : "Open Temple Directory",
+                        "mnemonic" : "O",
+                        "command" : "j_open_temple_directory"
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "JFileTemple",
+                        "children":
+                        [
+                            {
+                                "command"     : "open_file",
+                                "args"        : {"file": "${packages}/JFileTemple/JFileTemple.sublime-settings"},
+                                "caption"     : "Settings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {"file": "${packages}/User/JFileTemple.sublime-settings"},
+                                "caption"     : "Settings – User"
+                            },
+                            { "caption"       : "-" },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/JFileTemple/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption"     : "Key Bindings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/JFileTemple/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption"     : "Key Bindings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/JFileTemple/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption"     : "Key Bindings – Default"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption"     : "Key Bindings – User"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption"     : "Key Bindings – User"
+                            },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {
+                                    "file"    : "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption"     : "Key Bindings – User"
+                            },
+                            { "caption"       : "-" },
+                            {
+                                "command"     : "open_file",
+                                "args"        : {"file": "${packages}/JFileTemple/Main.sublime-menu"},
+                                "caption"     : "Settings – Menu"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }    
+]

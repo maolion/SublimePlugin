@@ -1,0 +1,41 @@
+{
+    "default_language" : "CH",
+    //语言包选择
+    "language" : "CH",
+    //项目默认的保存目录
+    "work_space" : "",
+    //调试模式开起/关闭
+    "debug" : false,
+    //替换一个文件替换标签的可替换范围
+    "replace_scope" : [
+        {
+            "pattern" : "//.*|/\\*[\\S\\s]*?\\*/",
+            "file_ext" : [ 
+                ".js", 
+                ".json", 
+                ".css", 
+                ".php", 
+                ".java", 
+                ".scala", 
+                ".c", 
+                ".cpp", 
+                ".jsp" 
+            ]
+        },
+        {
+            "pattern" : "#.*|\\\"\\\"\\\"[\\S\\s]*?\\\"\\\"\\\"",
+            "file_ext" : [ 
+                ".py", 
+                ".rb" 
+            ]
+        },
+        {
+            "pattern" : "[\\S\\s]*",
+            "file_ext" : [
+                ".txt",
+                ".html"
+            ]
+
+        }
+    ]
+}

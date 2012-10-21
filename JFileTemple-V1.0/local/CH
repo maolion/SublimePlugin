@@ -1,0 +1,10 @@
+{
+    "CREATE_NEW_FILE"            : "创建新文件",
+    "CREATE_NEW_FILE_FAIL"       : "使用文件模板创建新文件失败",
+    "GET_FILE_TEMPLE"            : "获取指定文件模板结构",
+    "WRITE_FILE_TEMPLE_COMPLETE" : "指定文件模板结构已插入",
+    "GET_TEMPLE_LIST_FAIL"       : "获取模板列表失败",
+    "WAIT_PLEASE"                : "请稍等...",
+
+    "test"                       : "你好,世界"
+}

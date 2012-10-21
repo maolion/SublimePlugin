@@ -1,0 +1,38 @@
+{
+    "DATE_FORMAT"                : "%Y\/%m\/%d",
+
+
+    "CREATE_PROJECT"             : "创建项目",
+    "INPUT_PROJECT_NAME"         : "输入项目名",
+    "INPUT_PROJECT_DIR"          : "输入项目目录",
+    "WAIT_PLEASE"                : "请稍等...",
+    "CREATE_PROJECT_DIR_FAIL"    : "创建项目目录失败",
+    "CREATE_PROJECT_DIR_SUCCESS" : "创建项目目录成功",
+    "CREATE_PROJECT_FAIL"        : "创建项目失败",
+    "CREATE_PROJECT_SUCCESS"     : "创建项目成功HAHA",
+    "DIRECTORY_EXIST"            : "该目录已经在磁盘上被创建",
+    "PATH_ERROR"                 : "路径错误",
+    "CONFIGING_PROJECT"          : "正在配置项目",
+    "CONFIG_PROJECT_FAIL"        : "配置项目失败",
+    "CONFIG_PROJECT_SUCCESS"     : "配置项目完成",
+    "OPENING_PROJECT"            : "正在打开项目",
+    "RELEASE_PROJECT"            : "发行项目",
+    "RELEASE_PROJECT_SUCCESS"    : "完成发行项目",
+    "RELEASE_PROJECT_FAIL"       : "发行项目失败",
+    "RELEASE_BEFORE_TIP"         : "如果你需要在创建当前项目的发行版本之前,\n需要对项目发行配置进行修改，请选择取消按钮.\n继续请按确定按钮.",
+    "GET_PROJECT_CONFIG"         : "获取项目配置",
+    "GET_PROJECT_CONFIG_FAIL"    : "获取项目配置失败",
+    "CHECK_PROJECT_CONFIG"       : "检查项目配置",
+    "INVALID_PROJECT_CONFIG"     : "无效的项目配置文件",
+    "CREATE_RELEASE_DIR"         : "创建项目发行版本目录",
+    "CREATE_RELEASE_DIR_FAIL"    : "创建项目发行版本目录失败\n或者,当前已有相同项目发行版本",
+    "COPY_FILE_TO_RELEASE"       : "复制文件到发行版本目录",
+    "COPY_FILE_TO_RELEASE_FAIL"  : "复制文件到发行版本目录失败",
+    "REPLACE_TAG"                : "替换标签",
+    "REPLACE_TAG_FAIL"           : "替换标签失败",
+    "CONFIRM_IMPORT_OVERRIDE"    : "是否允许模板中文件覆盖项目中的文件？",
+    "GET_TEMPLE_LIST_FAIL"       : "获取模板列表失败",
+    "IMPORT_TEMPLE_FAIL"         : "导入模板失败",
+    "TEST"                       : "世界，你好"
+    
+}

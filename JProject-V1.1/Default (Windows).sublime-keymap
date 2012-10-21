@@ -1,0 +1,14 @@
+[
+  {
+    "command" : "j_project_create",
+    "keys" : [ "ctrl+shift+n" ]
+  },
+  {
+    "command" : "j_project_release",
+    "keys" : [ "ctrl+shift+r" ]
+  },
+  {
+    "command" : "j_project_import_temple",
+    "keys" : [ "ctrl+shift+i" ]
+  }
+]
